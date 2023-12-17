@@ -1,5 +1,5 @@
 var mongoose =require("mongoose");  /*moongoose kullanacağımızı belittik*/
-var dbURI="mongodb+srv://emine:Hh2003.e.a@mekanbul.niidkou.mongodb.net/?retryWrites=true&w=majority";
+var dbURI="mongodb+srv://emine:<password>@mekanbul.niidkou.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(dbURI);
 mongoose.connection.on("connected",function(){
     console.log(dbURI+" adresine bağlandı");
